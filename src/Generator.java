@@ -88,7 +88,7 @@ public class Generator {
         }
     }
 
-    //Überschreibt alles im Würfel und verschiebt die erste Ebene in die zweit Letzte
+    //Überschreibt alles im 3D-Array und verschiebt die erste Ebene in die zweit Letzte
     private void clearCube(int[][][] cube) {
         for (int z = 0; z < 10; z++) {
             for (int y = 0; y < 9; y++) {

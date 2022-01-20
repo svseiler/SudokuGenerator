@@ -69,7 +69,7 @@ public class General {
         }
     }
 
-    //Gibt alle Ebenen des Würfels aus
+    //Gibt alle Ebenen des 3D-Arrays aus
     protected void array3Dprint(int[][][] cube) {
         for (int z = 0; z < 13; z++) {
             for (int y = 0; y < 9; y++) {

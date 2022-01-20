@@ -31,7 +31,7 @@ public class Solver {
         return solved;
     }
 
-    //Kopiert das aktuelle Sudoku Feld in die oberste Ebene die als Zwischenspeicher dient
+    //Kopiert das aktuelle Sudoku Feld in die oberste Ebene
     private void copyLevel10 (int[][][] cube){
         for (int y = 0; y < 9; y++) {
             for (int x = 0; x < 9; x++) {
